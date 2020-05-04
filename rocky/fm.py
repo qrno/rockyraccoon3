@@ -33,3 +33,6 @@ class FileManager:
         filename_html = filename_without_ext + '.html'
         out_file = join(out_dir, filename_html)
         return out_file
+
+    def base(self, file):
+        return basename(file)
